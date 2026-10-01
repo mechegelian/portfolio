@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Mehmet Emin Copuroglu — Electrical Engineering student at Queen's University. Embedded systems, PCB design, automation and control." />
+  <title>Mehmet Copuroglu</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="grid-bg"></div>
+  <header class="nav shell">
+    <a class="mark" href="#top">mec<span>.</span></a>
+    <nav>
+      <a href="#projects">Projects</a>
+      <a href="#experience">Experience</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero shell reveal">
+      <div class="eyebrow"><span class="pulse"></span> Electrical Engineering · Queen's University</div>
+      <h1>MEHMET EMIN<br><span>COPUROGLU</span></h1>
+      <p class="hero-copy">I build embedded systems, design hardware, and explore industrial automation &amp; control.</p>
+      <div class="actions">
+        <a class="button primary" href="#projects">View Projects <span>↘</span></a>
+        <a class="button" href="https://github.com/mechegelian" target="_blank" rel="noreferrer">GitHub ↗</a>
+        <a class="button" href="MehmetCopurogluResume.pdf" target="_blank">Resume ↗</a>
+      </div>
+      <div class="hero-meta">
+        <span>Kingston, Ontario</span><span>Embedded · Hardware · Automation</span>
+      </div>
+    </section>
+
+    <section id="about" class="section shell reveal">
+      <div class="section-label">01 / ABOUT</div>
+      <div class="section-body about">
+        <h2>I like making things<br>that actually work.</h2>
+        <div class="about-copy">
+          <p>I’m an Electrical Engineering student at Queen’s. Most of my time goes into embedded systems, hardware, PCB design, automation and control — especially the part where an idea stops being a diagram and starts doing something in the real world.</p>
+          <p>I’m still figuring out exactly where I want engineering to take me, so I use projects as an excuse to try things, break things, and learn what’s underneath them.</p>
+          <p class="personal-note"><span>off the bench /</span> This site is also a small record of what I’m into outside engineering — music, films, and whatever I’m currently learning. More of that soon.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section shell reveal">
+      <div class="section-label">02 / SELECTED PROJECTS</div>
+      <div class="project-grid section-body visual-projects">
+        <article class="project project-wide">
+          <div class="project-media hero-media"><img src="sound-lab.png" alt="Sound Lab browser audio interface" loading="lazy"></div>
+          <div class="project-top"><span>01</span><span>MAR 2026 — PRESENT</span></div>
+          <div>
+            <p class="project-type">WEB AUDIO · FRONTEND · AUDIO SYSTEMS</p>
+            <h3>Sound Lab</h3>
+            <p>Building an interactive web-based audio experimentation tool using JavaScript and the Web Audio API. It lets users create and manipulate sounds with dedicated controls for loops, effects, and playback behavior through a simplified interface.</p>
+            <p>It also features real-time waveform visualization and emphasizes usability and modular design — a hands-on exploration of sound synthesis, browser audio systems, and frontend application development.</p>
+          </div>
+          <div class="project-footer"><div class="tags"><span>JavaScript</span><span>Web Audio API</span><span>Audio</span><span>Frontend</span></div><a class="project-link" href="https://mechegelian.github.io/sound-lab/" target="_blank" rel="noreferrer">Live Project ↗</a></div>
+        </article>
+
+        <article class="project">
+          <div class="project-gallery gallery-three">
+            <img src="railway-prototype.png" alt="Railway monitoring electronics prototype" loading="lazy">
+            <img src="railway-build.png" alt="Railway project mechanical enclosure build" loading="lazy">
+            <img src="railway-testing.png" alt="Railway track monitoring field testing" loading="lazy">
+          </div>
+          <div class="project-top"><span>02</span><span>JAN 2026 — APR 2026</span></div>
+          <div><p class="project-type">SENSORS · EMBEDDED · TESTING</p><h3>Railway Track Condition Monitoring System</h3><p>Developed a sensor-based railway track condition monitoring system to detect potential track irregularities and improve railway safety. Contributed to system design, mechanical assembly, and testing as part of a collaborative engineering project.</p></div>
+          <div class="tags"><span>Embedded</span><span>Sensors</span><span>Testing</span><span>System Design</span></div>
+        </article>
+
+        <article class="project">
+          <div class="project-gallery gallery-three">
+            <img src="water-system-1.png" alt="Automated water treatment system prototype" loading="lazy">
+            <img src="water-system-2.png" alt="Water treatment electronics and pump system" loading="lazy">
+            <img src="water-system-cad.png" alt="Fusion 360 CAD model of the water treatment system" loading="lazy">
+          </div>
+          <div class="project-top"><span>03</span><span>SEP 2025 — DEC 2025</span></div>
+          <div><p class="project-type">ARDUINO · CONTROL · CAD</p><h3>Automated Pre-Treatment Water System</h3><p>Performed component testing, designed the full system assembly in Fusion 360, and developed Arduino-based control code for pump operation, mixing cycles, and sensor data handling as part of a collaborative team project.</p></div>
+          <div class="tags"><span>Arduino</span><span>Fusion 360</span><span>Control</span><span>Sensors</span></div>
+        </article>
+
+        <article class="project project-wide sound-space-card">
+          <div class="project-media space-media"><img src="sound-space.png" alt="SOUND//SPACE interactive audio visualization" loading="lazy"></div>
+          <div class="project-top"><span>04</span><span>SEP 2026</span></div>
+          <div><p class="project-type">WEB AUDIO · THREE.JS · REAL-TIME VISUALS</p><h3>SOUND//SPACE</h3><p>Built an interactive browser-based audio visualization experience that turns music into a responsive 3D environment. The project analyzes live audio data and maps waveform and frequency information to an animated wireframe planet, combining audio processing, real-time graphics, and interaction design.</p></div>
+          <div class="tags"><span>JavaScript</span><span>Web Audio API</span><span>Three.js</span><span>Audio Visualization</span></div>
+        </article>
+      </div>
+    </section>
+
+    <section id="experience" class="section shell reveal">
+      <div class="section-label">03 / EXPERIENCE</div>
+      <div class="section-body timeline">
+        <article><div class="year">2026</div><div><h3>Electrical Engineering Intern</h3><p>Ankutsan · Adana, Türkiye</p><p class="detail">Industrial maintenance, PLC-based automation, instrumentation, three-phase motors, VFDs, sensors, calibration and 4–20 mA systems.</p></div></article>
+        <article><div class="year">2025</div><div><h3>Electrical Team Member</h3><p>Queen's Knights Robotics Team · Kingston, ON</p><p class="detail">Turret control PCB: schematic development, component selection and PCB layout using KiCad.</p></div></article>
+        <article><div class="year">2024</div><div><h3>Workshop Assistant</h3><p>Teknik Masura · Mersin, Türkiye</p><p class="detail">Hands-on workshop experience across machining, mechanical assembly and electrical panel wiring and maintenance.</p></div></article>
+      </div>
+    </section>
+
+    <section id="education" class="section shell reveal">
+      <div class="section-label">04 / EDUCATION</div>
+      <div class="section-body education">
+        <div><h2>Queen's University</h2><p>Bachelor of Applied Science · Electrical Engineering</p></div>
+        <div class="edu-year">2025 — 2029<br><span>Kingston, Ontario</span></div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact shell reveal">
+      <p class="section-label">05 / CONTACT</p>
+      <h2>Let's build something.</h2>
+      <p>Interested in embedded systems, hardware, automation and engineering opportunities.</p>
+      <div class="actions">
+        <a class="button primary" href="mailto:25ljn@queensu.ca">Email Me ↗</a>
+        <a class="button" href="https://github.com/mechegelian" target="_blank" rel="noreferrer">GitHub ↗</a>
+        <a class="button" href="https://www.linkedin.com/in/mehmet-e-copuroglu-647b13372" target="_blank" rel="noreferrer">LinkedIn ↗</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="shell"><span>© <span id="year"></span> Mehmet Emin Copuroglu</span><span>Electrical Engineering · Queen's University</span></footer>
+  <script src="script.js"></script>
+</body>
+</html>
