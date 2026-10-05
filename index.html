@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Mehmet Copuroglu — Electrical Engineering student at Queen's University, building embedded systems, hardware, and curious software projects." />
+  <title>Mehmet Copuroglu</title>
+  <link rel="icon" type="image/png" href="assets/favicon.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="grid-bg"></div>
+  <header class="nav shell">
+    <a class="mark" href="#top" aria-label="Mehmet Copuroglu home"><img src="assets/mec-wordmark.png" alt="mec" /></a>
+    <nav>
+      <a href="#projects">Projects</a>
+      <a href="#experience">Experience</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero shell reveal">
+      <div class="eyebrow"><span class="pulse"></span> Electrical Engineering · Queen's University</div>
+      <h1>MEHMET EMIN<br><span>COPUROGLU</span></h1>
+      <p class="hero-copy">I build embedded systems, design hardware, and explore industrial automation &amp; control.</p>
+      <div class="actions">
+        <a class="button primary" href="#projects">View Projects <span>↘</span></a>
+        <a class="button" href="https://github.com/mechegelian" target="_blank" rel="noreferrer">GitHub ↗</a>
+        <a class="button" href="MehmetCopurogluResume.pdf" target="_blank">Resume ↗</a>
+      </div>
+      <div class="hero-meta"><span>Kingston, Ontario</span><span>Embedded · Hardware · Automation</span></div>
+    </section>
+
+    <section id="about" class="section shell reveal">
+      <div class="section-label">01 / ABOUT</div>
+      <div class="section-body about">
+        <h2>Engineering ideas into<br>working systems.</h2>
+        <div class="about-copy">
+          <p>I'm Mehmet, an Electrical Engineering student at Queen's. I like figuring out how things work, then making something real out of the idea—usually with a microcontroller, a circuit board, a pile of wires, or a browser tab open way too late.</p>
+          <p>Most of my project work is collaborative, and I'm still early in the process of becoming an engineer. I don't want this site to pretend I have everything figured out. It's a record of what I'm learning: embedded systems, hardware, automation, and the occasional side quest that starts with “I wonder if I can make this.”</p>
+          <p>There is more to me than project cards, too. I want to add the music I keep coming back to, movies I love, and other small things that make the page feel like mine. That part is a work in progress—same as the rest of it.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section shell reveal">
+      <div class="section-label">02 / SELECTED PROJECTS</div>
+      <div class="project-grid section-body">
+        <article class="project project-visual">
+          <div class="project-top"><span>01</span><span>MAR 2026 — PRESENT</span></div>
+          <button class="project-image" type="button" data-full="assets/sound-lab.png" aria-label="View Sound Lab screenshot"><img src="assets/sound-lab.png" alt="Sound Lab audio interface with waveform visualization" loading="lazy"><span class="image-hint">Click image to enlarge ↗</span></button>
+          <div class="project-copy"><p class="project-type">WEB AUDIO · VIBE CODING</p><h3>Sound Lab</h3>
+            <p>I’m building a browser-based place to mess around with sound: loops, effects, playback controls, and a waveform you can watch while things are playing. The goal is to make it feel simple to use, even while there’s a lot going on underneath.</p>
+            <p class="candid">I’ve been vibe coding this one—describing what I want, using AI to help shape the code, then trying it, breaking it, and figuring out what needs to change. It’s a hands-on way for me to learn the Web Audio API and frontend development, and I’m trying to understand the code as I go instead of treating the result like magic.</p>
+            <a class="project-link" href="https://mechegelian.github.io/sound-lab/" target="_blank" rel="noreferrer">Open Sound Lab ↗</a>
+          </div>
+          <div class="tags"><span>JavaScript</span><span>Web Audio API</span><span>Waveforms</span></div>
+        </article>
+
+        <article class="project project-visual">
+          <div class="project-top"><span>02</span><span>SEP 2026</span></div>
+          <div class="image-gallery sound-space-gallery">
+            <button class="project-image" type="button" data-full="assets/sound-space-stars.png" aria-label="View SOUND//SPACE starfield screenshot"><img src="assets/sound-space-stars.png" alt="SOUND//SPACE dark starfield interface" loading="lazy"><span class="image-hint">Click image to enlarge ↗</span></button>
+            <button class="project-image" type="button" data-full="assets/sound-space-orb.png" aria-label="View SOUND//SPACE audio visualization screenshot"><img src="assets/sound-space-orb.png" alt="SOUND//SPACE glowing audio-reactive orb" loading="lazy"><span class="image-hint">Click image to enlarge ↗</span></button>
+          </div>
+          <div class="project-copy"><p class="project-type">INTERACTIVE AUDIO · VIBE CODING</p><h3>SOUND//SPACE</h3>
+            <p>I wanted to see what listening to a track could look like, so I made a little audio-visual space for it. Sound goes in; the scene responds with a glowing orb, motion, and waveform and frequency details. It’s part experiment, part “let’s see how far I can take this.”</p>
+            <p class="candid">This is another vibe-coded project. I work from an idea, get help turning it into code, and keep adjusting it until it feels closer to what I had in my head. Sometimes that means chasing a visual bug for a while. I’m learning Three.js and browser audio by making something I actually want to play with.</p>
+            <a class="project-link" href="https://mechegelian.github.io/sound-space/" target="_blank" rel="noreferrer">Open SOUND//SPACE ↗</a>
+          </div>
+          <div class="tags"><span>JavaScript</span><span>Web Audio API</span><span>Three.js</span><span>Visualization</span></div>
+        </article>
+
+        <article class="project project-visual">
+          <div class="project-top"><span>03</span><span>JAN — APR 2026</span></div>
+          <div class="image-gallery"><button class="project-image" type="button" data-full="assets/railway-build.png" aria-label="View railway monitoring project build photo"><img src="assets/railway-build.png" alt="Railway monitoring project components laid out during assembly" loading="lazy"><span class="image-hint">Click image to enlarge ↗</span></button><button class="project-image" type="button" data-full="assets/railway-testing.png" aria-label="View railway track testing photo"><img src="assets/railway-testing.png" alt="Team testing the railway track monitoring system" loading="lazy"><span class="image-hint">Click image to enlarge ↗</span></button><button class="project-image" type="button" data-full="assets/railway-prototype.png" aria-label="View railway monitoring prototype photo"><img src="assets/railway-prototype.png" alt="Electronics prototype for railway condition monitoring" loading="lazy"><span class="image-hint">Click image to enlarge ↗</span></button></div>
+          <div class="project-copy"><p class="project-type">SENSORS · SYSTEM TESTING</p><h3>Railway Track Condition Monitoring System</h3><p>We developed a sensor-based system to spot possible track irregularities and support railway safety. I contributed to system design, mechanical assembly, and testing as part of a collaborative engineering project.</p></div>
+          <div class="tags"><span>Sensors</span><span>Assembly</span><span>Testing</span></div>
+        </article>
+
+        <article class="project project-visual">
+          <div class="project-top"><span>04</span><span>SEP — DEC 2025</span></div>
+          <div class="image-gallery"><button class="project-image" type="button" data-full="assets/water-system.png" aria-label="View automated water system photo"><img src="assets/water-system.png" alt="Automated water treatment prototype with pump and tubing" loading="lazy"><span class="image-hint">Click image to enlarge ↗</span></button><button class="project-image" type="button" data-full="assets/water-cad.png" aria-label="View water system Fusion 360 model"><img src="assets/water-cad.png" alt="Fusion 360 model of automated water system assembly" loading="lazy"><span class="image-hint">Click image to enlarge ↗</span></button><button class="project-image" type="button" data-full="assets/water-build.png" aria-label="View water system assembly photo"><img src="assets/water-build.png" alt="Water system assembly during project development" loading="lazy"><span class="image-hint">Click image to enlarge ↗</span></button></div>
+          <div class="project-copy"><p class="project-type">ARDUINO · AUTOMATION</p><h3>Automated Pre-Treatment Water System</h3><p>I tested components, designed the full system assembly in Fusion 360, and wrote Arduino control code for pump operation, mixing cycles, and sensor data handling as part of a collaborative team project.</p></div>
+          <div class="tags"><span>Arduino</span><span>Fusion 360</span><span>Sensors</span><span>Pump Control</span></div>
+        </article>
+      </div>
+    </section>
+
+    <section id="experience" class="section shell reveal">
+      <div class="section-label">03 / EXPERIENCE</div>
+      <div class="section-body timeline">
+        <article><div class="year">2026</div><div><h3>Electrical Engineering Intern</h3><p>Ankutsan · Adana, Türkiye</p><p class="detail">Industrial maintenance, PLC-based automation, instrumentation, three-phase motors, VFDs, sensors, calibration and 4–20 mA systems.</p></div></article>
+        <article><div class="year">2025</div><div><h3>Electrical Team Member</h3><p>Queen's Knights Robotics Team · Kingston, ON</p><p class="detail">Turret control PCB: schematic development, component selection and PCB layout using KiCad.</p></div></article>
+        <article><div class="year">2024</div><div><h3>Workshop Assistant</h3><p>Teknik Masura · Mersin, Türkiye</p><p class="detail">Hands-on workshop experience across machining, mechanical assembly and electrical panel wiring and maintenance.</p></div></article>
+      </div>
+    </section>
+
+    <section id="education" class="section shell reveal">
+      <div class="section-label">04 / EDUCATION</div>
+      <div class="section-body education"><div><h2>Queen's University</h2><p>Bachelor of Applied Science · Electrical Engineering</p></div><div class="edu-year">2025 — 2029<br><span>Kingston, Ontario</span></div></div>
+    </section>
+
+    <section id="contact" class="contact shell reveal">
+      <p class="section-label">05 / CONTACT</p><h2>Let's build something.</h2><p>Interested in embedded systems, hardware, automation and engineering opportunities.</p>
+      <div class="actions"><a class="button primary" href="mailto:25ljn@queensu.ca">Email Me ↗</a><a class="button" href="https://github.com/mechegelian" target="_blank" rel="noreferrer">GitHub ↗</a><a class="button" href="https://www.linkedin.com/in/mehmet-e-copuroglu-647b13372" target="_blank" rel="noreferrer">LinkedIn ↗</a></div>
+    </section>
+  </main>
+
+  <dialog class="image-viewer" aria-label="Expanded project image"><button class="viewer-close" type="button" aria-label="Close image">×</button><img alt=""></dialog>
+  <footer class="shell"><span>© <span id="year"></span> Mehmet Emin Copuroglu</span><span>Electrical Engineering · Queen's University</span></footer>
+  <script src="script.js"></script>
+</body>
+</html>
